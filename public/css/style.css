@@ -111,15 +111,17 @@ header div.burger-menu {
     width: 100vw;    
 }
 
-
-main section article {
-    margin-bottom: 10px;
-    
+main {
+    margin: 0 auto;
+    width: 90vw;
 }
 
-main {
-    text-align: center;
-    width: 90vw;
+main section article {
+    margin-bottom: 10px;    
+}
+
+main section article img {
+    width: 100%;
 }
 
 
@@ -188,17 +190,21 @@ main section article div {
 
 footer {
     text-align: center;
-    line-height: 6px;
 }
 
 footer h3 {
     text-align: center;
-    line-height: 8px;
 }
 
 footer p {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
-    line-height: 6px;
 }
 
+footer section div i {
+    color: #1259c3;
+}
+
+.img-logo {
+    width: 50%;
+}
