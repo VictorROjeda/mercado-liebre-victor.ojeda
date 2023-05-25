@@ -10,6 +10,13 @@ body {
 
 header {
     background-color: #EAC926;
+    width: 100vw;
+}
+
+.top-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
 }
 
 header p {
@@ -40,6 +47,21 @@ header nav ul li {
     list-style-type: none;
 }
 
+header nav ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+header nav ul {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+}
+
 
 .top-header {
     display: flex;
@@ -50,6 +72,13 @@ header nav ul li {
 .logo {
     width: 50%;
     padding: 10px;
+}
+
+.buscador {
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -77,12 +106,6 @@ header div.burger-menu i {
 header div.burger-menu {
     text-align: center;  
 }
-
-
-header {
-    width: 100vw;  
-}
-
 
 .banner-img {
     width: 100vw;    
@@ -147,7 +170,8 @@ main section article div {
         width: 45%;
     }
     header nav {
-        display: block;    
+        display: flex;
+        justify-content: space-between;    
     }
     header div.burger-menu {
         display: none;  
@@ -158,9 +182,8 @@ main section article div {
 
 @media (min-width: 769px) {
     main section article {
-    width: 22.5%;
-    
-}
+        width: 22.5%;    
+    }
 }
 
 footer {
