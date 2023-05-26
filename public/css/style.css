@@ -24,18 +24,18 @@ header p {
 }
 
 .titulares {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .precio {
-    font-size: 18px;
+    font-size: 12px;
     width: 30%;
 }
 
 .descuento {
-    font-size: 16px;
+    font-size: 10px;
     width: 70%;
-
+   
 }
 
 
@@ -155,7 +155,59 @@ main section article div {
 
 .descripcion {
     display: none;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+#formulario-register {
+    background-color: #ebebeb;
+    align-items: center;
+}
+
+.formularios {
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+form div {
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: 100%;
+    align-items: center;
+
+}
+
+form div input{
+    margin: auto 0px;
+}
+
+
+.text-field {
+    padding: 5px;
+}
+
+
+.selecciones {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.botonForm {
+    width: 40%;
+}
+
+.botonSubmit {
+    background-color: #1259c3;
+    color: #000;
+}
+
+.botonReset {
+    background-color: #EAC926;
+    color: #000;
 }
 
 @media (min-width: 361px) {
