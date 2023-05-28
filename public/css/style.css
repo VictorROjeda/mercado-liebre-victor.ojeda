@@ -183,13 +183,6 @@ main form div {
 }
 
 
-main form div {
-    margin-bottom: 10px;
-    border-radius: 5%;
-    width: 100%;
-    display: flex;
-
-}
 form div input{
     margin: auto 0px;
 }
@@ -207,7 +200,7 @@ form div input{
 }
 
 .botonForm {
-    width: 40%;
+    width: 30%;
 }
 
 .botonSubmit {
